@@ -1,12 +1,12 @@
 import math
 
 
-def potencia(x,y):
+def potencia(x: float,y):
     """
     Calcula a potêcia de x elevado a y
 
     Parametros:
-    x(float): base
+    x(float): base (rui esteve aqui)
     y(float): expoente
 
     Retorna:
