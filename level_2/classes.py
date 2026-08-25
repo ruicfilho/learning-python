@@ -11,7 +11,9 @@ objeto1.atr = "atributo teste de objeto1"
 
 objeto2 = MinhaClasse()
 objeto2.atr = "atributo teste de objeto2"
-print(objeto1)
+print(objeto1) 
+#outra maneira de verificar se o um objeto é de fato um objeto e pertence a classe específica é:
+print(isinstance(objeto1,MinhaClasse))  #imprime true 
 print(objeto1.atr)
 print(objeto2)
 print(objeto2.atr)
