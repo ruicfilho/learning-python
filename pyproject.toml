@@ -1,0 +1,19 @@
+[project]
+name = "learning-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ruicfilho-linux", email = "292251247+ruicfilho@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+]
+
+[project.scripts]
+learning-python = "learning_python:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
